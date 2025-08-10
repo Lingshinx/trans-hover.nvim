@@ -7,7 +7,7 @@ show translation via lsp.hover
 
 ```lua
 return {
-  "Lingshinx/trans-hover.nvim"
+  "Lingshinx/trans-hover.nvim",
   opts = true,
   cmd = { "Trans", "TransToggle" },
   dependencies = { "folke/noice.nvim" }, -- optional
